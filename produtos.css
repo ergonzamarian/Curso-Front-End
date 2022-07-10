@@ -1,22 +1,38 @@
 header {
 	background: #BBBBBB;
-	width: 100%;
+	padding: 20px 0;
 }
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .logo {
-	width: 5%;
+	width: 6%;
 	margin-left: 40px;
 }
 
 .titulo {
-	font-size: 16px;
-	margin-left: 25px;
-	margin-top: -30px;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 0px;
 	color: black;
 }
+
+nav { 
+	position: absolute;
+	top: 19px;
+	right: 0;
+
+}
+
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 }
+
 nav a {
 	text-transform: uppercase;
 	color: #000000;
