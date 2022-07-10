@@ -99,3 +99,18 @@ nav a:hover {
 	font-weight: bold;
 	margin-top: 10px;
 }
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.copyright {
+	font-size: 13px;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
