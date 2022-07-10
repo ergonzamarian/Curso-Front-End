@@ -16,7 +16,7 @@ header {
 
 .titulo {
 	font-size: 12px;
-	margin-left: 20px;
+	margin-left: 25px;
 	margin-top: 0px;
 	color: black;
 }
@@ -39,4 +39,40 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+.imagem-produto {
+	width: 60%;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+
+}
+
+.produtos h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao{
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
