@@ -1,4 +1,5 @@
-.cabecalho {
+header {
+	background: #BBBBBB;
 	width: 100%;
 }
 .logo {
@@ -11,4 +12,15 @@
 	margin-left: 25px;
 	margin-top: -30px;
 	color: black;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
