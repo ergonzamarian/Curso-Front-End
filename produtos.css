@@ -1,0 +1,14 @@
+.cabecalho {
+	width: 100%;
+}
+.logo {
+	width: 5%;
+	margin-left: 40px;
+}
+
+.titulo {
+	font-size: 16px;
+	margin-left: 25px;
+	margin-top: -30px;
+	color: black;
+}
