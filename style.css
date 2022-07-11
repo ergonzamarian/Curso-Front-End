@@ -259,7 +259,7 @@ td, th{
 
 .imagem-beneficios {
 	width: 60%;
-	border-radius: 10PX;
+	border-radius: 10px;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px black;
 }
@@ -272,4 +272,31 @@ td, th{
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+
+	.caixa, .principal, .conteudo-beneicios, .mapa-conteudo, .video{
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.titulo {
+		text-align: center;
+	}
+
+	nav {
+		margin-top: 10px;
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+
+
 }
