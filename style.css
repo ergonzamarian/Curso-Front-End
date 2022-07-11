@@ -118,10 +118,6 @@ footer {
 	margin-top: 20px;
 }
 
-main {
-
-}
-
 form {
 	margin: 40px 0;
 }
@@ -264,6 +260,12 @@ td, th{
 .imagem-beneficios {
 	width: 60%;
 	border-radius: 10PX;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px black;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.7;
 
 }
 
@@ -271,4 +273,3 @@ td, th{
 	width: 560px;
 	margin: 2em auto;
 }
-
