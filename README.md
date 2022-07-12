@@ -1,5 +1,6 @@
-# Estudo-Front-End
+# Curso-Front-End (Primeiro Projeto)
 
-> status deste repositório: Primeiro Projeto Finalizado
+> status deste repositório: Finalizado
 
-Estudando HTML5 e CSS3 até este momento.
+Meu Pojeto Front End feito em html e css pode ser acessado através do Link : https://ergonzamarian.github.io/Curso-Front-End/index.html
+
