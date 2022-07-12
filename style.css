@@ -119,7 +119,8 @@ footer {
 }
 
 form {
-	margin: 40px 0;
+	width: 940px;
+	margin: 50px auto;
 }
 
 form label, form legend {
@@ -128,11 +129,31 @@ form label, form legend {
 	margin-bottom: 10px;
 }
 
+fieldset select {
+	font-size: 20px;
+}
+
+fieldset legend{
+	margin-bottom: 20px;
+}
+
+.tabela-horario {
+	width: 940px;
+	margin: 50px auto;
+}
+
 .input-padrao {
 	display: block;
 	margin-bottom: 20px;
 	padding: 10px 25px;
-	width: 50%;
+	width: 100%;
+}
+
+.input-padrao-textarea {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 100%;
 }
 
 .checkbox {
@@ -172,6 +193,7 @@ td, th{
 	border: 1px solid #000000;
 	padding:  8px 15px;
 }
+
 /*css da página inicial*/
 .banner {
 	width: 100%;
@@ -276,8 +298,14 @@ td, th{
 
 @media screen and (max-width: 480px) {
 
-	.caixa, .principal, .conteudo-beneicios, .mapa-conteudo, .video{
+	/*css responsivo home*/
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
+	}
+
+	.logo {
+		width: 10%;
+		margin-left: 20px;
 	}
 
 	h1 {
@@ -291,12 +319,58 @@ td, th{
 	nav {
 		margin-top: 10px;
 		position: static;
+		width: 100%;
 	}
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
 
+	/*css responsivo produtos*/
+	.produtos {
+		width: auto;
+		margin: 0 auto;
+		padding: 50px 0;
+	}
 
+	.produtos li {
+		display: block;
+		text-align: center;
+		width: auto;
+		vertical-align: top;
+		margin: 10px 10%;
+
+	}
+	/*css responsivo contato*/
+	
+	form {
+		width: auto;
+		margin: 50px 70px;
+	}
+
+	.tabela-horario {
+		width: auto;
+		margin: 80px;
+	}
+	.input-padrao {
+		display: inline;
+		margin-bottom: 20px;
+		padding: 10px 25px;
+		width: auto;
+	}
+	.input-padrao-textarea {
+		height: 5em;
+    	width: 13.5em;
+	}
+
+	.checkbox {
+		margin: 20px 0 0;
+	}
+	.enviar {
+		width: auto;
+		padding: 15px;
+		margin-left: 30px;
+		margin-top: 50px;
+	}
 
 }

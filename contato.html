@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
 		<title>Contato - Cursos</title>
 
 		<link rel="stylesheet" href="reset.css">
@@ -39,7 +41,7 @@
 				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
 				
 				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" class="input-padrao" required></textarea>
+				<textarea cols="70" rows="10" class="input-padrao-textarea" required></textarea>
 					
 				<fieldset>
 					<legend>Como prefere receber o nosso contato?</legend>
@@ -66,31 +68,32 @@
 				<input type="submit" value="Enviar formlário" title="Enviar formlário" class="enviar">
 
 			</form>
-			<table>
-				<thead>
-					<tr>
-						<th>Dias</th>
-						<th>Horário</th>
-					</tr>
-				</thead>
-				
-				<tbody>
-					<tr>
-						<td>Segunda</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Quarta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Sexta</td>
-						<td>8h ~ 20h</td>
-					</tr>
+			<div class="tabela-horario">
+				<table>
+					<thead>
+						<tr>
+							<th>Dias</th>
+							<th>Horário</th>
+						</tr>
+					</thead>
 					
-				</tbody>
-			</table>
-
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
 		</main>
 		<footer>
 			<img class="logo" src="logo-rodape.png" alt="Logo do rodapé do Cursos de Front End">
