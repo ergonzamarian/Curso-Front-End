@@ -4,3 +4,5 @@
 
 Meu Pojeto Front End feito em html e css pode ser acessado através do Link : https://ergonzamarian.github.io/Curso-Front-End/index.html
 
+Importante: Neste curso não foi adicionado boas práticas
+
